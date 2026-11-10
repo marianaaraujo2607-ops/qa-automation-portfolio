@@ -36,5 +36,5 @@ def test_get_nonexistent_post_returns_404(base_url, post_id):
 def test_create_post_returns_201(base_url):
     payload = {"title": "foo", "body": "bar", "userId": 1}
     response = requests.post(f"{base_url}/posts", json=payload)
-    assert response.status_code == 201
+    assert response.status_code == 999
     assert response.json()["title"] == "foo"
