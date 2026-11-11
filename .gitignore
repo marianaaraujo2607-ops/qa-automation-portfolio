@@ -222,3 +222,5 @@ __marimo__/
 report.html
 .coverage
 htmlcov/
+.hypothesis/
+schemathesis-report/
