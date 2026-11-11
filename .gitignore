@@ -224,3 +224,4 @@ report.html
 htmlcov/
 .hypothesis/
 schemathesis-report/
+.schemathesis/
