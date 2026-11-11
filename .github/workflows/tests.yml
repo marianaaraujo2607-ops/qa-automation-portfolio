@@ -18,6 +18,13 @@ jobs:
 
       - name: Install dependencies
         run: pip install -r requirements.txt
-
+      
       - name: Run tests
-        run: pytest -v
+        run: pytest -v -n auto --cov=api --cov-report=term-missing --html=report.html --self-contained-html
+
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-report
+          path: report.html
