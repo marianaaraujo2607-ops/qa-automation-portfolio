@@ -1,6 +1,7 @@
 # QA Automation Portfolio
 
-[Tests](https://github.com/marianaaraujo2607-ops/qa-automation-portfolio/actions/workflows/tests.yml/badge.svg)
+![Tests](https://github.com/marianaaraujo2607-ops/qa-automation-portfolio/actions/workflows/tests.yml/badge.svg)
+
 Automated API test suite in Python, running on every push with GitHub Actions.
 
 ## Goal
